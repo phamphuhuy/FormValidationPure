@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Agbalumo&family=Poppins&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/style.css">
+
+    <!-- font awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+        integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Validate Form</title>
+</head>
+
+<body>
+    <!-- Phú Huy  -->
+    <div class="wrapperApp">
+        <div class="containerValidate">
+            <h3>FORM REGISTER VALIDATE</h3>
+            <form action="#" id="validationForm">
+                <div class="formGroup">
+                    <label for="">Name</label>
+                    <input type="text" placeholder="Enter your name" id="username">
+                    <small></small>
+                </div>
+                <div class="formGroup">
+                    <label for="">Email</label>
+                    <input type="text" placeholder="Enter your email" id="email">
+                    <small></small>
+                </div>
+                <div class="formGroup">
+                    <label for="">Password</label>
+                    <input type="password" placeholder="Enter your password" id="password">
+                    <span class="eye"><i id="showPassword" class="fa-regular fa-eye"></i></span>
+                    <small></small>
+                </div>
+                <div class="formGroup">
+                    <label for="">Password confirmation</label>
+                    <input type="password" placeholder="Enter password confirmation" id="confirmPass">
+                    <span class="eye"><i id="showConfirmPass" class="fa-regular fa-eye"></i></span>
+                    <small></small>
+                </div>
+
+                <div class="btnSubmit">
+                    <button id="btnSubmit" type="submit">Submit</button>
+                </div>
+            </form>
+            <!-- Phú Huy -->
+            <div class="selfLink">
+                <ul>
+                    <li>
+                        <a href="https://github.com/phamphuhuy">
+                            <i class="fa-brands fa-github"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://youtube.com/@ggcuahuy?si=c2i8pEjOyEehzYUw">
+                            <i class="fa-brands fa-youtube"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://www.facebook.com/phuhuy0604">
+                            <i class="fa-brands fa-facebook"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://www.facebook.com/phuhuy0604">
+                            <i class="fa-brands fa-facebook-messenger"></i>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+
+    <script src="./js/validate.js"></script>
+</body>
+
+</html>
